@@ -10,7 +10,7 @@ h1{
   font-family:'Courier New', Courier, monospace;
   font-size:40px;
   border:15px double black;
-  border-radius:35px;
+  border-radius:50px;
   background-color:#A2C1AD;
   width:80%;
   margin:auto;
@@ -38,8 +38,9 @@ p{
   font-size:25px;
   width:80%;
   margin:auto;
-  /* font-weight: normal; */
+  font-weight: normal;
   line-height: 1.5;
+  text-align:justify;
 }
 
 li{
@@ -64,7 +65,7 @@ li{
 
 table, td{
   border:10px double black;
-  border-radius:15px;
+  border-radius:35px;
   background-color:#D4DDD7;
   font-family:'Courier New', Courier, monospace;
   font-size:25px;
@@ -192,17 +193,17 @@ td:hover, th:hover{
   /* height:450px; */
 }
 
-.stay{
+/* .stay{
   /* position:absolute; */
-}
+} */
 
-.welcome{
-  text-align:left;
-}
+/* .welcome{
+  text-align:justify;
+} */
 
-strong.big{
+/* strong.big{
   background-color: #fecb3e;
-}
+} */
 
 h1.big{
   text-decoration: underline;
